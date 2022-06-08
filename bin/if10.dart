@@ -8,24 +8,24 @@
     Args:
         temp: integer
     Returns:
-        string: the message to print */
+        string: the message to return*/
 
 void main(List<String> args) {
-  func(31);
+  func(25);
 }
 
 func(a) {
   if (a < 0) {
-    print("Vreezing");
+    return "Freezing";
   } else if (1 <= a && a <= 10) {
-    print('Very Cold');
+    return 'Very Cold';
   } else if (11 <= a && a <= 20) {
-    print('Cold');
+    return 'Cold';
   } else if (21 <= a && a <= 30) {
-    print('Normal');
+    return 'Normal';
   } else if (31 <= a && a <= 40) {
-    print('Hot');
+    return 'Hot';
   } else {
-    print('Very Hot');
+    return 'Very Hot';
   }
 }

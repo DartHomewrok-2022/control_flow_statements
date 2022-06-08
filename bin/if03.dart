@@ -4,11 +4,11 @@
     Returns:
         a: integer*/
 void main(List<String> args) {
-  print(func(5));
+  print(func(0));
 }
 
 func(a) {
-  if (a.isNegative == false) {
+  if (a.isNegative == false && a != 0) {
     a = a + 1;
   } else if (a == 0) {
     a = 10;

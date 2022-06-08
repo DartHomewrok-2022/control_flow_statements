@@ -9,7 +9,7 @@
         string: the message to print */
 
 void main(List<String> args) {
-  print(func(100));
+  print(func(109));
 }
 
 func(a) {

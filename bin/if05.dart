@@ -10,15 +10,15 @@ void main(List<String> args) {
 }
 
 func(a, b, c) {
-  int pos = 0;
+  int neg = 0;
   if (a.isNegative == true) {
-    pos = pos + 1;
+    neg = neg + 1;
   }
   if (b.isNegative == true) {
-    pos = pos + 1;
+    neg = neg + 1;
   }
   if (c.isNegative == true) {
-    pos = pos + 1;
+    neg = neg + 1;
   }
-  return pos;
+  return neg;
 }
