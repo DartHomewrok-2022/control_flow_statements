@@ -11,13 +11,13 @@ void main(List<String> args) {
 
 func(a, b, c) {
   int neg = 0;
-  if (a.isNegative == true) {
+  if (a < 0) {
     neg = neg + 1;
   }
-  if (b.isNegative == true) {
+  if (b < 0) {
     neg = neg + 1;
   }
-  if (c.isNegative == true) {
+  if (c < 0) {
     neg = neg + 1;
   }
   return neg;
