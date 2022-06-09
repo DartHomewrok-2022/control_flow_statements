@@ -22,6 +22,8 @@ func(a) {
     b = "negative odd number";
   } else if (a > 0 && a.isEven) {
     b = "negative even number";
+  } else if (a < 0) {
+    b = "the number is zero";
   }
   return b;
 }
