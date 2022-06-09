@@ -14,13 +14,13 @@ void main(List<String> args) {
 
 func(a) {
   String b = "";
-  if (a.isNegative == false && a.isOdd) {
+  if (a > 0 && a.isOdd) {
     b = "positive odd number";
-  } else if (a.isNegative == false && a.isEven) {
+  } else if (a > 0 && a.isEven) {
     b = "positive even number";
-  } else if (a.isNegative == true && a.isOdd) {
+  } else if (a > 0 && a.isOdd) {
     b = "negative odd number";
-  } else if (a.isNegative == true && a.isEven) {
+  } else if (a > 0 && a.isEven) {
     b = "negative even number";
   }
   return b;
