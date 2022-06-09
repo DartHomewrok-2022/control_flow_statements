@@ -15,17 +15,17 @@ void main(List<String> args) {
 func(a, b, c) {
   int pos = 0;
   int neg = 0;
-  if (a.isNegative == false) {
+  if (a > 0) {
     pos = pos + 1;
   } else {
     neg = neg + 1;
   }
-  if (b.isNegative == false) {
+  if (b > 0) {
     pos = pos + 1;
   } else {
     neg = neg + 1;
   }
-  if (c.isNegative == false) {
+  if (c > 0) {
     pos = pos + 1;
   } else {
     neg = neg + 1;
