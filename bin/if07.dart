@@ -9,7 +9,7 @@
     Returns:
         string: the message to print */
 void main(List<String> args) {
-  print(func(8));
+  print(func(0));
 }
 
 func(a) {
@@ -18,11 +18,11 @@ func(a) {
     b = "positive odd number";
   } else if (a > 0 && a.isEven) {
     b = "positive even number";
-  } else if (a > 0 && a.isOdd) {
+  } else if (a < 0 && a.isOdd) {
     b = "negative odd number";
-  } else if (a > 0 && a.isEven) {
+  } else if (a < 0 && a.isEven) {
     b = "negative even number";
-  } else if (a < 0) {
+  } else if (a == 0) {
     b = "the number is zero";
   }
   return b;
