@@ -1,4 +1,7 @@
-/*  Find how many positive and how many negative numbers there are in the given numbers.
+/*  
+    Create function called func
+    Create a function argument  called a,b,c of type int
+    Find how many positive and how many negative numbers there are in the given arguments.
     check the following conditions:
     "there are a lot of positive numbers",
     "there are a lot of negative numbers"
@@ -8,29 +11,4 @@
         c: third number
     Returns:
         string: string with the result*/
-void main(List<String> args) {
-  print(func(2, -3, 5));
-}
-
-func(a, b, c) {
-  int pos = 0;
-  int neg = 0;
-  if (a > 0) {
-    pos = pos + 1;
-  } else {
-    neg = neg + 1;
-  }
-  if (b > 0) {
-    pos = pos + 1;
-  } else {
-    neg = neg + 1;
-  }
-  if (c > 0) {
-    pos = pos + 1;
-  } else {
-    neg = neg + 1;
-  }
-  return neg < pos
-      ? "there are a lot of positive numbers"
-      : "there are a lot of negative numbers";
-}
+void main() {}

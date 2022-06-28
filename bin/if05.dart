@@ -1,24 +1,11 @@
-/* Find how many negative numbers there are in the given numbers.
+/* 
+    Create function called func
+    Create a function argument  called a,b,c of type int
+    Find how many negative numbers there are in the given arguments.
     Args:
         a: integer
         b: integer
         c: integer
     returns:
         integer: the number of negative numbers in the given numbers*/
-void main(List<String> args) {
-  print(func(2, -2, 5));
-}
-
-func(a, b, c) {
-  int neg = 0;
-  if (a < 0) {
-    neg = neg + 1;
-  }
-  if (b < 0) {
-    neg = neg + 1;
-  }
-  if (c < 0) {
-    neg = neg + 1;
-  }
-  return neg;
-}
+void main() {}

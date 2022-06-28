@@ -1,4 +1,7 @@
-/* Display the message according to the following temperature conditions given to you in Celsius:
+/* 
+    Create function called func
+    Create a function argument  called number of type int
+    Display the message according to the following temperature conditions given to you in Celsius:
     Temp<0: "Freezing"
     Temp 1-10: "Very Cold"
     Temp 11-20: "Cold"
@@ -10,22 +13,4 @@
     Returns:
         string: the message to return*/
 
-void main(List<String> args) {
-  func(25);
-}
-
-func(a) {
-  if (a < 0) {
-    return "Freezing";
-  } else if (1 <= a && a <= 10) {
-    return 'Very Cold';
-  } else if (11 <= a && a <= 20) {
-    return 'Cold';
-  } else if (21 <= a && a <= 30) {
-    return 'Normal';
-  } else if (31 <= a && a <= 40) {
-    return 'Hot';
-  } else {
-    return 'Very Hot';
-  }
-}
+void main() {}
